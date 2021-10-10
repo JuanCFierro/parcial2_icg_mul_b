@@ -1,9 +1,16 @@
-<input type=text size=3 id='nf'/>              //Caja de texto donde se ingresa el numero de columnas
-<button onclick='main()'>Realizar columnas</button>              //Boton para ejecutar el programa
-<canvas id='canvas' width=800 height=600>                 //Tamaño del canvas
+<input type=text size=3 id='nf'/>           
+<button onclick='main()'>Realizar columnas</button>              
+<canvas id='canvas' width=800 height=600>                 
 <script>
 var ctx;
 	
+
+// "<input type=text size=3 id='nf'/>" es la caja de texto donde se ingresa el numero de columnas
+// "<button onclick='main()'>Realizar columnas</button>" es el boton para ejecutar el programa
+// "<canvas id='canvas' width=800 height=600>" es el tamaño del canvas
+
+
+
 function polygon(a, colorBorde, colorRelleno, grosor) {  // Funcion para construir poligonos
 		ctx.beginPath()
 		ctx.strokeStyle = colorBorde
